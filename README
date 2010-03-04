@@ -10,6 +10,8 @@ dun add "task" - adds 'task' to the end of your list.
 
 dun saves into a text file, by default todo.txt in your Documents directory.  If you don't like this you'll have to change the path in dun.rb.  It's hard coded.
 
+In order to make it run from anywhere at the command line you will either need to drop the script somewhere with you path (e.g. /usr/local/sbin/) or just link it from there (ln -s /usr/local/sbin/dun /where/you/saved/the/file).
+
 The idea behind this is that you can easily cat the text file however you like--in my workflow it fits perfectly into conky.  You can hit Alt+F2 to popup a run window and type one of the commands.  I might also recommend that you assign some convenient keyboard shortcut to the likes of 'dun' and 'dun skip'.
 
 A taskbar widget may, in fact, be forthcoming, but don't hold your breath.
