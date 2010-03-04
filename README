@@ -1,0 +1,16 @@
+/*  Done  */
+
+A dead simple command line based todo list manager.
+You get four commands:
+
+done - type this and the first item is removed from your list.
+done n - where n is a number, presumably less than the number of tasks on your list.  This removes the nth task.
+done skip - moves the first task to the end of the list.
+done add 'task' - adds 'task' to the end of your list.
+
+Done saves into a text file, by default todo.txt in your Documents directory.  If you don't like this you'll have to change the path in done.rb.  It's hard coded.
+
+The idea behind this is that you can easily cat the text file however you like--in my workflow it fits perfectly into conky.  You can hit Alt+F2 to popup a run window and type one of the commands.  I might also recommend that you assign some convenient keyboard shortcut to the likes of 'done' and 'done skip'.
+
+A taskbar widget may, in fact, be forthcoming, but don't hold your breath.
+Enjoy!!
