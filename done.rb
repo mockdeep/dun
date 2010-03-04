@@ -2,7 +2,7 @@
 index = 0
 add = ''
 
-f = File.open('todo.txt', 'r')
+f = File.open('~/Documents/todo.txt', 'r')
 lines = f.readlines()
 f.close()
 
